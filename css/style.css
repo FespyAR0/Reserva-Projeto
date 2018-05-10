@@ -1,0 +1,129 @@
+img { /* Imagem fluída */
+	display: block;
+	max-width: 100;
+}
+
+*{ font-family: 'Trebuchet MS'; color: #fff; }
+
+html, body{
+	background: linear-gradient(rgba(95,39,142,.85), rgba(70,11,63.95)), url(../img/bg-img.jpg) no-repeat;	
+		background-size:  100% auto;
+	background-position: top center;
+	background-attachment: fixed;
+}
+
+p, a, span{
+	font-size: 18px;
+	text-decoration: none;
+}
+
+h2{ font-size: 48px; }
+
+
+header .container{ padding: 0px 80px; }
+
+header a{
+	display: inline-block;
+	margin: 0px 15px;
+	font-weight: bold;
+}
+
+header a img{
+	height: 140px;
+	width: 140px;
+}
+
+.t-1{
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+
+.t-1 span{
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.t-1 h1{ 
+	font-size: 76px; 
+	max-width: 500px;
+	line-height: 0.8em;
+	margin: 0 auto;
+	font-weight: bold;
+}
+
+
+.icone{ width: 80px; height: 80px; margin: 0 auto 48px auto; }
+
+.aftr::after{
+	content: '';
+	display: block;
+	height: 30px;
+	width: 900px;
+	background: url(../img/decoracao.svg);
+	margin: 40px auto;
+
+}
+
+.after-n::after{
+	content: '';
+	display: block;
+	height: 2px;
+	width: 100%;
+	margin: 20px auto;
+	background: #A5CD47;
+}
+
+
+
+
+.menu-cont{float: right; }
+
+.menu-cont a{ margin-top: 60px; }
+
+section {
+	padding-bottom: 200px;
+}
+
+.intro{
+	padding-top: 120px;
+	padding-bottom: 260px;
+	text-align: center;
+}
+
+.intro span{font-size: 36px; font-weight: bold;}
+
+
+.hor-item{ text-align: center; }
+
+.hor-item.container{ margin: 60px auto; }
+
+.hor-item h2{ 
+	margin-bottom: 48px; 
+	line-height: 0.15em; 
+	color:#A5CD47;
+}
+
+.hor-item span{ font-size: 24px; }
+
+.hor-item .cont .info .after-n{padding-top: 60px;}
+
+
+.cardapios .container img{ margin: 0 auto; }
+
+
+.info{ text-align: center; line-height: 1.75em; padding-bottom: 60px;}
+
+.info .local, .info .telefone{ margin-bottom: 60px; }
+
+.telefone span{
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.info .cta-fb{ max-width: 300px; margin: 0 auto;}
+
+
+
+footer p{ text-align: center;  padding-bottom: 20px; font-weight: normal; font-size: 16px;}
